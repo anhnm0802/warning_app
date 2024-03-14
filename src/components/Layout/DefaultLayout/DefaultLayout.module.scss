@@ -4,11 +4,11 @@
     align-items: center;
 }
 .container {
-    width: 1150px;
+    width: var(--default-layout-width);
     display: flex;
 }
 .content {
     flex: 1;
-    background-color: pink;
+    background-color: grey;
     min-height: 1000px;
 }
